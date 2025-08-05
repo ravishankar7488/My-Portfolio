@@ -1,0 +1,105 @@
+.footer .icons {
+  font-size: 2rem; /* Change 2rem to your desired size */
+  margin-right: 30px;
+}
+.footer{
+  background-color: #333; /* Dark background for footer */
+  color: white; /* White text for contrast */
+  padding: 20px; /* Padding for spacing */
+  text-align: center; /* Centered text */
+  position: relative; /* Position relative for absolute children */
+  bottom: 0; /* Stick to the bottom of the page */
+  width: 100%; /* Full width footer */
+  align-items: center;
+  justify-content: center ;
+}
+/* Make images responsive in .image containers */
+.image img {
+  margin: 5%;
+  width: 90%;
+  height: auto;
+  display: block;
+}
+@media (max-width: 600px) {
+  .experience .ex-content {
+    line-height: 35px;
+    margin-top: 30px;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .experience img {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    margin-bottom: 30px !important;
+  }
+  .experience .ex-text {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    width: 90vw !important;
+  }
+}
+.bg-body-tertiary{
+  background-color: transparent!important;
+  color: rgb(236, 225, 225)!important;
+}
+
+.navbar-nav .nav-link {
+  color: rgb(243, 238, 238) !important;
+  font-size: 20px;
+  margin-right: 40px ;
+  margin-left: 40px ;
+  font-family: 'Courier New', Courier, monospace;
+}
+.navbar-brand {
+  color: rgb(236, 228, 228) !important;
+  font-size: 25px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.header {
+  background-image: url('./source/bannerimage.jpg');
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  text-align: center;
+  color: white  ;
+  align-items: center   ;
+}
+#headerparagraph {
+  color: white;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 80px;
+  text-align: center;
+}
+.card-text{
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(14, 13, 13);
+  font-size: 20px;
+}
+.card-title {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(15, 15, 15);
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.skills {
+  margin-left: 40px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(14, 13, 13);
+  font-size: 20px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image{
+  width: 100%;
+height : auto;
+}
+.projects{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
